@@ -17,3 +17,19 @@ FilamentPHP : https://filamentphp.com/docs
 - **Dark Mode**: Laravel Mobiler offers a dark mode option for users who prefer a darker color scheme.
 - **Built-in Components**: The template includes a variety of built-in components, such as buttons, forms, tables, and modals, to help you build your application faster.
 - **Easy Integration**: Laravel Mobiler is built on Laravel and FilamentPHP, making it easy to integrate with existing Laravel applications.
+
+<a href="https://ibb.co/SXtYPmy"><img src="https://i.ibb.co/Fb5ZKY3/Screenshot-2024-04-28-at-15-59-27.png" alt="Screenshot-2024-04-28-at-15-59-27" border="0"></a>
+
+## Installation
+
+```bash
+composer install
+
+php artisan migrate
+
+php artisan make:filament-user
+
+php artisan icons:cache
+
+php artisan filament:cache-components
+```

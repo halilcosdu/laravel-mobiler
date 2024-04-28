@@ -8,6 +8,7 @@ use App\Filament\Resources\DeviceResource\Widgets\DeviceStatusChart;
 use App\Filament\Resources\DeviceResource\Widgets\DeviceStatusOverviewChart;
 use App\Models\Device;
 use Filament\Forms;
+use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Form;
 use Filament\Infolists\Components\Group;
 use Filament\Infolists\Components\IconEntry;
@@ -17,9 +18,12 @@ use Filament\Infolists\Infolist;
 use Filament\Notifications\Notification;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Filters\Filter;
 use Filament\Tables\Grouping\Group as TableGroup;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
 
 class DeviceResource extends Resource
 {
@@ -200,6 +204,45 @@ class DeviceResource extends Resource
                     ->label('Show only Blocked')
                     ->query(function ($query) {
                         $query->where('is_blocked', true);
+                    }),
+                Filter::make('created_at')
+                    ->form([
+                        DatePicker::make('created_from')
+                            ->closeOnDateSelection()
+                            ->maxDate(now())
+                            ->prefixIcon('heroicon-o-calendar-days')
+                            ->prefixIconColor('success')
+                            ->native(false),
+                        DatePicker::make('created_until')
+                            ->closeOnDateSelection()
+                            ->prefixIconColor('danger')
+                            ->maxDate(now())
+                            ->prefixIcon('heroicon-o-calendar-days')
+                            ->native(false),
+                    ])
+                    ->columns(2)
+                    ->query(function (Builder $query, array $data): Builder {
+                        return $query
+                            ->when(
+                                $data['created_from'] ?? null,
+                                fn (Builder $query, $date): Builder => $query
+                                    ->whereDate('created_at', '>=', $date),
+                            )
+                            ->when(
+                                $data['created_until'] ?? null,
+                                fn (Builder $query, $date): Builder => $query
+                                    ->whereDate('created_at', '<=', $date),
+                            );
+                    })->indicateUsing(function (array $data): array {
+                        $indicators = [];
+                        if ($data['created_from'] ?? null) {
+                            $indicators['created_from'] = 'Devices from '.Carbon::parse($data['created_from'])->toFormattedDateString();
+                        }
+                        if ($data['created_until'] ?? null) {
+                            $indicators['created_until'] = 'Devices until '.Carbon::parse($data['created_until'])->toFormattedDateString();
+                        }
+
+                        return $indicators;
                     }),
             ])
             ->actions([
