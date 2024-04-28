@@ -18,7 +18,9 @@ FilamentPHP : https://filamentphp.com/docs
 - **Built-in Components**: The template includes a variety of built-in components, such as buttons, forms, tables, and modals, to help you build your application faster.
 - **Easy Integration**: Laravel Mobiler is built on Laravel and FilamentPHP, making it easy to integrate with existing Laravel applications.
 
-<a href="https://ibb.co/SXtYPmy"><img src="https://i.ibb.co/Fb5ZKY3/Screenshot-2024-04-28-at-15-59-27.png" alt="Screenshot-2024-04-28-at-15-59-27" border="0"></a>
+<a href="https://i.ibb.co/cc6f183/Screenshot-2024-04-28-at-15-59-27.png">
+<img src="https://i.ibb.co/cc6f183/Screenshot-2024-04-28-at-15-59-27.png" alt="Screenshot" style="width:100%;">
+</a>
 
 ## Installation
 
