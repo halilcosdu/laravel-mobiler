@@ -13,7 +13,7 @@ class Device extends Model
 
     protected $casts = [
         'os_type' => OSTypes::class,
-        'is_banned' => 'boolean',
+        'is_blocked' => 'boolean',
         'is_premium' => 'boolean',
     ];
 }
