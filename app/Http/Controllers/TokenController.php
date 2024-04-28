@@ -14,8 +14,8 @@ class TokenController extends Controller
             'client_device_code' => $request->client_device_code,
         ], $request->validated());
 
-        if ($device->is_banned) {
-            abort(403, 'Device is banned.');
+        if ($device->is_blocked) {
+            abort(403, 'Device is blocked.');
         }
 
         $device->tokens()->delete();
