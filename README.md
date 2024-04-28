@@ -4,6 +4,8 @@
 
 Laravel Mobiler is a ready-to-use panel template for mobile devices, developed using Laravel and FilamentPHP, that handles authentication processes.
 
+FilamentPHP : https://filamentphp.com/docs
+
 ## Features
 - **User Authentication**: Laravel Mobiler provides a complete user authentication system, including registration, login, and password reset functionality.
 - **Mobile-First Design**: The panel template is designed with a mobile-first approach, ensuring a seamless user experience on mobile devices.

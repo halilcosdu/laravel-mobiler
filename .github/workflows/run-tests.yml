@@ -50,6 +50,7 @@ jobs:
 
       - name: Setup Application Key
         run: |
+          php -r "file_exists('.env') || copy('.env.example', '.env');"
           php artisan key:generate
 
       - name: List Installed Dependencies
