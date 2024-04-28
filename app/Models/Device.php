@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\OSTypes;
+use App\Enums\OSTypes;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Sanctum\HasApiTokens;

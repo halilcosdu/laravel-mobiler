@@ -2,9 +2,11 @@
 
 namespace App\Filament\Resources;
 
+use App\Enums\OSTypes;
 use App\Filament\Resources\DeviceResource\Pages;
+use App\Filament\Resources\DeviceResource\Widgets\DeviceStatusChart;
+use App\Filament\Resources\DeviceResource\Widgets\DeviceStatusOverviewChart;
 use App\Models\Device;
-use App\OSTypes;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Infolists\Components\Group;
@@ -56,7 +58,7 @@ class DeviceResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\Toggle::make('is_banned')
+                Forms\Components\Toggle::make('is_blocked')
                     ->required(),
                 Forms\Components\Toggle::make('is_premium')
                     ->required(),
@@ -115,15 +117,15 @@ class DeviceResource extends Resource
                 return $action->button()->label('Filters');
             })
             ->columns([
-                Tables\Columns\ToggleColumn::make('is_banned')
-                    ->label('Banned')
+                Tables\Columns\ToggleColumn::make('is_blocked')
+                    ->label('Blocked')
                     ->onIcon('heroicon-m-bolt-slash')
                     ->offIcon('heroicon-m-bolt')
                     ->onColor('danger')
                     ->offColor('success')
                     ->afterStateUpdated(function ($record, $state) {
-                        Notification::make('is_banned')
-                            ->title($state ? 'Device Banned.' : 'Device Activated.')
+                        Notification::make('is_blocked')
+                            ->title($state ? 'Device Blocked.' : 'Device Activated.')
                             ->{$state ? 'danger' : 'success'}()
                             ->send();
                     }),
@@ -193,11 +195,11 @@ class DeviceResource extends Resource
                     ->query(function ($query) {
                         $query->where('is_premium', true);
                     }),
-                Tables\Filters\Filter::make('is_banned')
+                Tables\Filters\Filter::make('is_blocked')
                     ->toggle()
-                    ->label('Show only Banned')
+                    ->label('Show only Blocked')
                     ->query(function ($query) {
-                        $query->where('is_banned', true);
+                        $query->where('is_blocked', true);
                     }),
             ])
             ->actions([
@@ -247,8 +249,8 @@ class DeviceResource extends Resource
                         Group::make()
                             ->columns(4)
                             ->schema([
-                                IconEntry::make('is_banned')
-                                    ->label('Banned')
+                                IconEntry::make('is_blocked')
+                                    ->label('Blocked')
                                     ->boolean(),
                                 IconEntry::make('is_premium')
                                     ->boolean()
@@ -283,6 +285,14 @@ class DeviceResource extends Resource
     {
         return [
             //
+        ];
+    }
+
+    public static function getWidgets(): array
+    {
+        return [
+            DeviceStatusOverviewChart::class,
+            DeviceStatusChart::class,
         ];
     }
 

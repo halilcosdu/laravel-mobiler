@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('devices', function (Blueprint $table) {
             $table->id();
-            $table->boolean('is_banned')->index()->default(false);
+            $table->boolean('is_blocked')->index()->default(false);
             $table->boolean('is_premium')->index()->default(false);
             $table->string('timezone')->default(config('app.timezone'));
             $table->string('os_type');
