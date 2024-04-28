@@ -35,3 +35,18 @@ php artisan icons:cache
 
 php artisan filament:cache-components
 ```
+#### Example request for token creation: {{host}}/api/token
+###### You may collect this data from mobile devices and send it to the server.
+```json
+{
+    "timezone": "America/New_York",
+    "os_type": "ios",
+    "os_version": "14",
+    "device_name": "My Phone",
+    "device_type": "14.2.3",
+    "app_version": "100",
+    "client_device_code": "03c882bd-efaa-3c49-b6cb-987cdce434cf",
+    "language_code": "EN",
+    "country_code": "US"
+}
+```
