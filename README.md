@@ -22,6 +22,15 @@ FilamentPHP : https://filamentphp.com/docs
 <img src="https://i.ibb.co/cc6f183/Screenshot-2024-04-28-at-15-59-27.png" alt="Screenshot" style="width:100%;">
 </a>
 
+<a href="https://i.ibb.co/JvBDCbm/Screenshot-2024-04-30-at-17-37-12.png">
+<img src="https://i.ibb.co/JvBDCbm/Screenshot-2024-04-30-at-17-37-12.png" alt="Screenshot" style="width:100%;">
+</a>
+
+<a href="https://i.ibb.co/5n8YY3k/Screenshot-2024-04-30-at-17-38-51.png">
+<img src="https://i.ibb.co/5n8YY3k/Screenshot-2024-04-30-at-17-38-51.png" alt="Screenshot" style="width:100%;">
+</a>
+
+
 ## Installation
 
 ```bash

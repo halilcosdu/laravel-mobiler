@@ -11,9 +11,11 @@
         "php": "^8.2",
         "filament/filament": "^3.2",
         "flowframe/laravel-trend": "^0.2.0",
+        "halilcosdu/laravel-logweaver": "^1.0",
         "laravel/framework": "^11.0",
         "laravel/sanctum": "^4.0",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "valentin-morice/filament-json-column": "^1.3"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
