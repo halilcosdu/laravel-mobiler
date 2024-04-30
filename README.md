@@ -62,4 +62,5 @@ php artisan filament:cache-components
     - Consumable Purchase
     - Non-Consumable Purchase
     - User Management
+    - Log Management
 ```
