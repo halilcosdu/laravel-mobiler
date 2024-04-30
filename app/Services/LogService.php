@@ -11,14 +11,13 @@ class LogService
 {
     public function log(
         string $description,
-        array  $content,
+        array $content,
         string $logResource = 'system',
         string $level = 'info',
         string $disk = 'local',
         string $directory = 'logs',
         ?array $relation = null
-    ): Builder|Model
-    {
+    ): Builder|Model {
         $log = LogWeaver::description($description)
             ->content($content)
             ->relation($relation)
