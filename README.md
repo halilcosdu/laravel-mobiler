@@ -63,5 +63,6 @@ php artisan filament:cache-components
     - Non-Consumable Purchase
     - User Management
     - Log Management
-    - Postman Collection
+    - API Documentation
+    - Readme.md Update
 ```
