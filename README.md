@@ -66,12 +66,7 @@ php artisan filament:cache-components
     - Revenuecat Integration
     - Firebase Integration
     - Push Notification
-    - In-App Purchase
     - Subscription Management
-    - Consumable Purchase
-    - Non-Consumable Purchase
-    - User Management
-    - Log Management
     - API Documentation
     - Readme.md Update
 ```
