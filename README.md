@@ -45,6 +45,9 @@ php artisan icons:cache
 php artisan filament:cache-components
 ```
 #### Example request for token creation: {{host}}/api/token
+```php
+Route::post('/token', TokenController::class)->name('token.store');
+```
 ###### You may collect this data from mobile devices and send it to the server.
 ```json
 {
