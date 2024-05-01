@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\TokenController;
 use Illuminate\Support\Facades\Route;
 
@@ -10,3 +11,5 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::get('/profile', ProfileController::class)->name('profile.show');
 
 });
+
+Route::post('/subscriptions', [SubscriptionController::class, 'webhook'])->name('subscriptions.webhook');

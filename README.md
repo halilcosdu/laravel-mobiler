@@ -61,7 +61,11 @@ php artisan filament:cache-components
 ```
 
 #### Revenuecat Integration
+###### Revenuecat webhook callback url.
 
+```php
+Route::post('/subscriptions', [SubscriptionController::class, 'webhook'])->name('subscriptions.webhook');
+```
 ## WIP
 
 ```bash
