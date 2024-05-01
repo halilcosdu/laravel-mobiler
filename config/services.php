@@ -30,5 +30,7 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
-
+    'revenuecat' => [
+        'token' => env('REVENUECAT_WEBHOOK_TOKEN'),
+    ],
 ];

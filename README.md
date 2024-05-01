@@ -60,6 +60,8 @@ php artisan filament:cache-components
 }
 ```
 
+#### Revenuecat Integration
+
 ## WIP
 
 ```bash
