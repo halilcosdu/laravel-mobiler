@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Device;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,7 +18,10 @@ class TicketFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'device_id' => Device::factory(),
+            'name' => $this->faker->name,
+            'email' => $this->faker->unique()->safeEmail,
+            'message' => $this->faker->sentence,
         ];
     }
 }
