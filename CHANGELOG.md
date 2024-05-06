@@ -2,6 +2,13 @@
 
 All notable changes to `laravel-mobiler` will be documented in this file.
 
+## v1.0.5 - 2024-05-06
+
+**Full Changelog**: https://github.com/halilcosdu/laravel-mobiler/compare/v1.0.4...v1.0.5
+
+Ticket system added.
+Revenuecat env variables added.
+
 ## v1.0.4 - 2024-04-30
 
 **Full Changelog**: https://github.com/halilcosdu/laravel-mobiler/compare/v1.0.3...v1.0.4
