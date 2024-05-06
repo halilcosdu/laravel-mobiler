@@ -20,7 +20,7 @@ class TokenController extends Controller
             );
 
         if ($device->is_blocked) {
-            $logService->log(description: 'Device is blocked.', content: $device->toArray(), relation: ['device_id' => $device->id]);
+            $logService->log(description: 'Device is blocked.', content: $device->toArray(), level: 'critical', relation: ['device_id' => $device->id]);
             abort(403, 'Device is blocked.');
         }
 
