@@ -77,3 +77,15 @@ Route::post('/subscriptions', [SubscriptionController::class, 'webhook'])->name(
     - API Documentation
     - Readme.md Update
 ```
+## Current routes
+
+```bash
+Route::post('/token', TokenController::class)->name('token.store');
+
+Route::middleware(['auth:sanctum'])->group(function () {
+    Route::get('/profile', ProfileController::class)->name('profile.show');
+    Route::post('/tickets', TicketController::class)->name('tickets.store');
+});
+
+Route::post('/subscriptions', [SubscriptionController::class, 'webhook'])->name('subscriptions.webhook');
+```
