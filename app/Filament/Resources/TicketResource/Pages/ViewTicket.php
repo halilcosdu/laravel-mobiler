@@ -15,7 +15,7 @@ class ViewTicket extends ViewRecord
     protected function getHeaderActions(): array
     {
         return [
-            Actions\EditAction::make()->slideOver()
+            Actions\EditAction::make()->slideOver(),
         ];
     }
 }
