@@ -72,10 +72,8 @@ Route::post('/subscriptions', [SubscriptionController::class, 'webhook'])->name(
 ## WIP
 
 ```bash
-    - Revenuecat Integration
     - Firebase Integration
     - Push Notification
-    - Subscription Management
     - API Documentation
     - Readme.md Update
 ```

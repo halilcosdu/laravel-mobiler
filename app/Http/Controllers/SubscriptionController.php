@@ -99,7 +99,7 @@ class SubscriptionController extends Controller
 
     private function getPackage($productPackage): string
     {
-        $packages = ['weekly', 'monthly', 'yearly'];
+        $packages = explode(',', config('services.revenuecat.packages'));
 
         foreach ($packages as $package) {
             if (str_contains($productPackage, $package)) {

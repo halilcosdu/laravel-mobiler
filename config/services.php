@@ -32,5 +32,6 @@ return [
     ],
     'revenuecat' => [
         'token' => env('REVENUECAT_WEBHOOK_TOKEN'),
+        'packages' => env('REVENUECAT_PACKAGES'),
     ],
 ];
