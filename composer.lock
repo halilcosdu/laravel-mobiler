@@ -2223,16 +2223,16 @@
         },
         {
             "name": "halilcosdu/laravel-logweaver",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/halilcosdu/laravel-logweaver.git",
-                "reference": "5306e26cf266e0a6ae1fd58fc312870447253a0c"
+                "reference": "c76e17f0da5d4b6fc68eefa47a05f42db7ef474d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/halilcosdu/laravel-logweaver/zipball/5306e26cf266e0a6ae1fd58fc312870447253a0c",
-                "reference": "5306e26cf266e0a6ae1fd58fc312870447253a0c",
+                "url": "https://api.github.com/repos/halilcosdu/laravel-logweaver/zipball/c76e17f0da5d4b6fc68eefa47a05f42db7ef474d",
+                "reference": "c76e17f0da5d4b6fc68eefa47a05f42db7ef474d",
                 "shasum": ""
             },
             "require": {
@@ -2290,9 +2290,9 @@
             ],
             "support": {
                 "issues": "https://github.com/halilcosdu/laravel-logweaver/issues",
-                "source": "https://github.com/halilcosdu/laravel-logweaver/tree/v1.0.5"
+                "source": "https://github.com/halilcosdu/laravel-logweaver/tree/v1.0.6"
             },
-            "time": "2024-04-30T14:30:14+00:00"
+            "time": "2024-05-06T19:29:24+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
