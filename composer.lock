@@ -7721,16 +7721,16 @@
         },
         {
             "name": "valentin-morice/filament-json-column",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valentin-morice/filament-json-column.git",
-                "reference": "b25b146c090d73adeac78a583f47dc8eabcf2894"
+                "reference": "c3a05e0c7bcbc5e523cc2b7f7f58d1014119ed63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valentin-morice/filament-json-column/zipball/b25b146c090d73adeac78a583f47dc8eabcf2894",
-                "reference": "b25b146c090d73adeac78a583f47dc8eabcf2894",
+                "url": "https://api.github.com/repos/valentin-morice/filament-json-column/zipball/c3a05e0c7bcbc5e523cc2b7f7f58d1014119ed63",
+                "reference": "c3a05e0c7bcbc5e523cc2b7f7f58d1014119ed63",
                 "shasum": ""
             },
             "require": {
@@ -7788,7 +7788,7 @@
                 "issues": "https://github.com/valentin-morice/filament-json-column/issues",
                 "source": "https://github.com/valentin-morice/filament-json-column"
             },
-            "time": "2024-04-16T12:28:10+00:00"
+            "time": "2024-05-13T08:31:47+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
