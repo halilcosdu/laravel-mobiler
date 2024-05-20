@@ -5181,16 +5181,16 @@
         },
         {
             "name": "spatie/invade",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/invade.git",
-                "reference": "7b20a25486de69198e402da20dc924d8bcc8024a"
+                "reference": "b920f6411d21df4e8610a138e2e87ae4957d7f63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/invade/zipball/7b20a25486de69198e402da20dc924d8bcc8024a",
-                "reference": "7b20a25486de69198e402da20dc924d8bcc8024a",
+                "url": "https://api.github.com/repos/spatie/invade/zipball/b920f6411d21df4e8610a138e2e87ae4957d7f63",
+                "reference": "b920f6411d21df4e8610a138e2e87ae4957d7f63",
                 "shasum": ""
             },
             "require": {
@@ -5228,7 +5228,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/invade/tree/2.0.0"
+                "source": "https://github.com/spatie/invade/tree/2.1.0"
             },
             "funding": [
                 {
@@ -5236,7 +5236,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-19T18:55:36+00:00"
+            "time": "2024-05-17T09:06:10+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
@@ -7721,16 +7721,16 @@
         },
         {
             "name": "valentin-morice/filament-json-column",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valentin-morice/filament-json-column.git",
-                "reference": "b25b146c090d73adeac78a583f47dc8eabcf2894"
+                "reference": "c3a05e0c7bcbc5e523cc2b7f7f58d1014119ed63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valentin-morice/filament-json-column/zipball/b25b146c090d73adeac78a583f47dc8eabcf2894",
-                "reference": "b25b146c090d73adeac78a583f47dc8eabcf2894",
+                "url": "https://api.github.com/repos/valentin-morice/filament-json-column/zipball/c3a05e0c7bcbc5e523cc2b7f7f58d1014119ed63",
+                "reference": "c3a05e0c7bcbc5e523cc2b7f7f58d1014119ed63",
                 "shasum": ""
             },
             "require": {
@@ -7788,7 +7788,7 @@
                 "issues": "https://github.com/valentin-morice/filament-json-column/issues",
                 "source": "https://github.com/valentin-morice/filament-json-column"
             },
-            "time": "2024-04-16T12:28:10+00:00"
+            "time": "2024-05-13T08:31:47+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -8324,16 +8324,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.11",
+            "version": "1.6.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "81a161d0b135df89951abd52296adf97deb0723d"
+                "reference": "1f4efdd7d3beafe9807b08156dfcb176d18f1699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/81a161d0b135df89951abd52296adf97deb0723d",
-                "reference": "81a161d0b135df89951abd52296adf97deb0723d",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/1f4efdd7d3beafe9807b08156dfcb176d18f1699",
+                "reference": "1f4efdd7d3beafe9807b08156dfcb176d18f1699",
                 "shasum": ""
             },
             "require": {
@@ -8403,7 +8403,7 @@
                 "security": "https://github.com/mockery/mockery/security/advisories",
                 "source": "https://github.com/mockery/mockery"
             },
-            "time": "2024-03-21T18:34:15+00:00"
+            "time": "2024-05-16T03:13:13+00:00"
         },
         {
             "name": "myclabs/deep-copy",
