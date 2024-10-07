@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa933f3bf1eea2852672bbd5849d2393",
+    "content-hash": "3d013027e09c58a640a671f502f0c95e",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -1416,16 +1416,16 @@
         },
         {
             "name": "flowframe/laravel-trend",
-            "version": "v0.2.0",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Flowframe/laravel-trend.git",
-                "reference": "bae1232325a59a7c9e99a372c80afab82309503b"
+                "reference": "391849c27a1d4791efae930746a51d982820bd3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Flowframe/laravel-trend/zipball/bae1232325a59a7c9e99a372c80afab82309503b",
-                "reference": "bae1232325a59a7c9e99a372c80afab82309503b",
+                "url": "https://api.github.com/repos/Flowframe/laravel-trend/zipball/391849c27a1d4791efae930746a51d982820bd3a",
+                "reference": "391849c27a1d4791efae930746a51d982820bd3a",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1478,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Flowframe/laravel-trend/issues",
-                "source": "https://github.com/Flowframe/laravel-trend/tree/v0.2.0"
+                "source": "https://github.com/Flowframe/laravel-trend/tree/v0.3.0"
             },
             "funding": [
                 {
@@ -1486,7 +1486,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-14T13:45:40+00:00"
+            "time": "2024-09-27T09:20:30+00:00"
         },
         {
             "name": "fruitcake/php-cors",
