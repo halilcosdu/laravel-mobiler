@@ -2446,16 +2446,16 @@
         },
         {
             "name": "laravel/sanctum",
-            "version": "v4.0.4",
+            "version": "v4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sanctum.git",
-                "reference": "819782c75aaf2b08da1765503893bd2b8023d3b3"
+                "reference": "9e069e36d90b1e1f41886efa0fe9800a6b354694"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/819782c75aaf2b08da1765503893bd2b8023d3b3",
-                "reference": "819782c75aaf2b08da1765503893bd2b8023d3b3",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/9e069e36d90b1e1f41886efa0fe9800a6b354694",
+                "reference": "9e069e36d90b1e1f41886efa0fe9800a6b354694",
                 "shasum": ""
             },
             "require": {
@@ -2506,7 +2506,7 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
-            "time": "2024-11-15T14:47:23+00:00"
+            "time": "2024-11-26T21:18:33+00:00"
         },
         {
             "name": "laravel/serializable-closure",
