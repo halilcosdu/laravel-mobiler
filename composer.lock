@@ -7460,16 +7460,16 @@
         },
         {
             "name": "valentin-morice/filament-json-column",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valentin-morice/filament-json-column.git",
-                "reference": "7001ebf4c19e5bd27be75c20c72b12477388165f"
+                "reference": "a3179dd10c59728193a9bfa5532345ae73f3c025"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valentin-morice/filament-json-column/zipball/7001ebf4c19e5bd27be75c20c72b12477388165f",
-                "reference": "7001ebf4c19e5bd27be75c20c72b12477388165f",
+                "url": "https://api.github.com/repos/valentin-morice/filament-json-column/zipball/a3179dd10c59728193a9bfa5532345ae73f3c025",
+                "reference": "a3179dd10c59728193a9bfa5532345ae73f3c025",
                 "shasum": ""
             },
             "require": {
@@ -7492,12 +7492,12 @@
             "type": "library",
             "extra": {
                 "laravel": {
-                    "providers": [
-                        "ValentinMorice\\FilamentJsonColumn\\FilamentJsonColumnServiceProvider"
-                    ],
                     "aliases": {
                         "FilamentJsonColumn": "ValentinMorice\\FilamentJsonColumn\\Facades\\FilamentJsonColumn"
-                    }
+                    },
+                    "providers": [
+                        "ValentinMorice\\FilamentJsonColumn\\FilamentJsonColumnServiceProvider"
+                    ]
                 }
             },
             "autoload": {
@@ -7527,7 +7527,7 @@
                 "issues": "https://github.com/valentin-morice/filament-json-column/issues",
                 "source": "https://github.com/valentin-morice/filament-json-column"
             },
-            "time": "2024-10-20T12:29:26+00:00"
+            "time": "2025-01-06T11:01:26+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
