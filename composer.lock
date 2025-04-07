@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0eec3780822f8a637add3dd2f5277e9",
+    "content-hash": "d9f25c48da8deeb5d8aaec0eac75c16c",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -7450,7 +7450,7 @@
         },
         {
             "name": "valentin-morice/filament-json-column",
-            "version": "v1.7.0",
+            "version": "v2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valentin-morice/filament-json-column.git",
