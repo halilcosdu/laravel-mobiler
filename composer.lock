@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0eec3780822f8a637add3dd2f5277e9",
+    "content-hash": "d9f25c48da8deeb5d8aaec0eac75c16c",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -7446,16 +7446,16 @@
         },
         {
             "name": "valentin-morice/filament-json-column",
-            "version": "v1.7.0",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valentin-morice/filament-json-column.git",
-                "reference": "62b8702a048dc40d876bb9ab18f901eac51cd84d"
+                "reference": "5ea58d3ec2053a0607cb3f5f29c8ae40fa84b0e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valentin-morice/filament-json-column/zipball/62b8702a048dc40d876bb9ab18f901eac51cd84d",
-                "reference": "62b8702a048dc40d876bb9ab18f901eac51cd84d",
+                "url": "https://api.github.com/repos/valentin-morice/filament-json-column/zipball/5ea58d3ec2053a0607cb3f5f29c8ae40fa84b0e0",
+                "reference": "5ea58d3ec2053a0607cb3f5f29c8ae40fa84b0e0",
                 "shasum": ""
             },
             "require": {
@@ -7514,7 +7514,7 @@
                 "issues": "https://github.com/valentin-morice/filament-json-column/issues",
                 "source": "https://github.com/valentin-morice/filament-json-column"
             },
-            "time": "2025-03-26T11:03:39+00:00"
+            "time": "2025-05-28T13:14:19+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
